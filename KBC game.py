@@ -28,5 +28,8 @@ if ready == "yes":
             print("Wrong answer!")
             break
     print(f"Your final score is: {score} Rs.")
-else:
+elif ready == "no":
     print("Thank you for playing!")
+
+else:
+    print("Please answer in yes or no")
